@@ -64,7 +64,7 @@ php artisan migrate --seed
 Run feature tests using:
 
 ```bash
-php artisan test
+php artisan test --filter=PostFeatureTest
 ```
 
 Test coverage includes:
